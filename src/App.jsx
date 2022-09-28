@@ -69,6 +69,7 @@ function App() {
         <nav className='navbar navbar-expand-lg text-bg-dark p-3'>
           <ul>
             <a href="https://monumental-florentine-45f272.netlify.app/" target="_blank" rel="noopener noreferrer"><li>Acesse o jogo</li></a>
+            <a href='https://github.com/murillotlopes/dashboard_jogo' target="_blank" rel="noopener noreferrer"><li>Repositório</li></a>
             <li onClick={() => ordenador('id')}>Ordenar numero</li>
             <li onClick={() => ordenador('nome')}>Ordenar Jogador</li>
             <li onClick={() => ordenador('valor')}>Ordenar Pontuação</li>
